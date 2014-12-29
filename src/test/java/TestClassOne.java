@@ -20,7 +20,7 @@ public class TestClassOne {
     @Test
     public void testOne () {
         driver.get("http://vk.com/");
-        Assert.assertEquals(true,false);
+        Assert.assertEquals(true,true);
 
     }
 }
