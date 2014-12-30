@@ -33,6 +33,6 @@ public class TestClassOne {
 
         System.out.println("op op op op op op _______________--------------------");
         driver.quit();
-        Assert.assertEquals(false, false);
+        Assert.assertEquals(true, false);
     }
 }
