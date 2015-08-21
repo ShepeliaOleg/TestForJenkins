@@ -16,7 +16,8 @@ public class TestClassOne {
 
     @BeforeTest
     public void before (){
-    driver = new FirefoxDriver();
+    System.setProperty("webdriver.chrome.driver", "C:\\Job\\Framework\\New folder\\portal-tests-testng\\portal-tests-testng\\src\\test\\chromedriver.exe");
+                driver= new ChromeDriver();
     }
 
     @Test
